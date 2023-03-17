@@ -1,0 +1,112 @@
+.CardContainer
+{
+    border-radius: 15px;
+    display: flex;
+    margin: 10px;
+    max-height: 400px;
+    max-width: 500px;
+    transition: 0.5s all;
+    border: 0.08px solid rgb(233, 233, 233);
+    padding: 5px;
+}
+
+.CardContainer:hover
+{
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.Title
+{
+    font-size: 12px;
+}
+.CardText
+{
+    font-size: 8.5px;
+    max-height: 10px;
+    overflow: hidden;
+}
+
+.conainter-product
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.conainter-product h1
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 14px;
+    background-color: #e9d0ca;
+    color: #FF5B38;
+    border-radius: 5px;
+    padding: 5px;
+    opacity: 75%;
+}
+
+.conainter-product img{
+    height: 150px;
+    width: 110px;
+    padding: 10px;
+}
+
+.addButton
+{
+    /* font-size: 20px; */
+    background-color: #FF5B38;
+    height: 35px;
+    width: 35px;
+}
+
+.addButton:hover
+{
+    background-color: #e94824;
+}
+
+.price-real
+{
+    display: flex;
+}
+
+
+.price-real h1{
+    font-size: 18px;
+}
+
+.category
+{
+    color: #FF5B38;
+    opacity: 75%;
+    font-size: 12px;
+    width: 100%;
+}
+
+.rating
+{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+}
+
+.rating h1{
+    margin: 5px;
+    font-size: 16px;
+    color: rgb(169, 169, 169);
+}
+
+.rating p{
+    font-size: 11px;
+    color: rgb(169, 169, 169);
+    margin: 5px;
+}
+
+.cardDis
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    align-items: center;
+    width: 100%;
+}

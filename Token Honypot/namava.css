@@ -1,0 +1,32 @@
+html
+{
+    height: 100%;
+    width: 100%;
+}
+.hov 
+{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(190, 53, 53);
+    display: flex;
+    border-radius: 100%;
+    transition: 1s all;
+    animation-name: example;
+    animation-duration: 4s;
+    margin: 0px;
+}
+
+@keyframes example {
+    0%   {
+        
+    }
+    25%  {
+        margin: 20px;
+    }
+    50%  {
+        margin: 40px;
+    }
+    100% {
+        margin: 60px;
+    }
+  }

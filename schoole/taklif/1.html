@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taklif</title>
+    <link rel="stylesheet" href="./1.css">
+    <script>
+        function changeColor(id){
+            if (id == 'imgCho1')
+            document.getElementById("ma").style.backgroundColor = "red";
+            else if (id == 'imgCho2')  
+            document.getElementById("ma").style.backgroundColor = "blue";
+            else if (id == 'imgCho3')
+            document.getElementById("ma").style.backgroundColor = "green";
+            else if (id == 'imgCho4')
+            document.getElementById("ma").style.backgroundColor = "black";
+        }
+    </script>
+</head>
+<body id="ma">
+    <dev class="main">
+        <button onClick="{changeColor('imgCho1')}" id="imgCho1">red</button>
+        <button onClick="{changeColor('imgCho2')}" id="imgCho2">blue</button>
+        <button onClick="{changeColor('imgCho3')}" id="imgCho3">green</button>
+        <button onClick="{changeColor('imgCho4')}" id="imgCho4">black</button>
+    </dev>
+</body>
+</html>

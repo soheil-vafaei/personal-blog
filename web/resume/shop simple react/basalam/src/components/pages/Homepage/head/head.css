@@ -1,0 +1,92 @@
+header{
+  height: 100%;
+  width: 100%;
+}
+
+.contrainer-head
+{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container
+{
+    /* background-color: rgb(77, 77, 77); */
+    /* max-width: 80%; */
+    width: 80%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.head-container-title
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* align-items: flex-end; */
+}
+
+.search-header
+{
+  display: flex;
+  align-items: center;
+}
+
+.search-header img{
+  height: 40px;
+  width: 88px;
+}
+
+.search-header input
+{
+  height: 53px;
+  width: 480px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  border: 0px;
+  margin: 20px;
+  text-align: end;
+  padding: 10px;
+}
+
+.shop-user
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop-user a{
+  text-decoration: none;
+}
+
+.login-user
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  color: black;
+}
+
+.login-user p{
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.basket-user
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  color: black;
+}
+
+.basket-user p{
+  margin-top: 10px;
+  font-size: 12px;
+}

@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'iranSans';
+    src: url('../FontsFree-Net-ir_sans.ttf');
+}
+
+*{
+    font-family: iranSans;
+}
+
+.cont
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255, 0, 0); */
+}
+
+.container
+{
+    height: 650px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-login
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 0.5px solid rgb(135, 135, 135);
+    height: 500px;
+    width: 450px;
+}
+
+.imgHead
+{
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.imgHead img{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    padding: 30px;
+}
+
+.tagLogin
+{
+    display: flex;
+    padding: 20px;
+}
+
+.tagLogin p
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.disLogin
+{
+    display: flex;
+    padding-right: 20px;
+}
+
+.disLogin p{
+    font-size: 10px;
+    color: rgb(131, 131, 131);
+}
+
+.inputLogin
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.inputLogin input
+{
+    height: 50px;
+    width: 400px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(105, 182, 253);
+}
+
+
+.buttonLogin
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.buttonLogin button
+{
+    height: 60px;
+    width: 410px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;   
+    background-color: rgb(255, 18, 18); 
+    color: white;   
+    transition: 0.2s all;
+}
+
+.alertLogin
+{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.alertLogin p{
+    font-size: 12px;
+    color: red;
+    
+}

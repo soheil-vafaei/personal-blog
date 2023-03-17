@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'iranSans';
+  src: url('../FontsFree-Net-ir_sans.ttf');
+}
+
+*
+{
+  font-family: iranSans;
+}
+
+.container-login
+{
+  height: 500px;
+  width: 420px;
+  border: 1px solid black;
+  border-radius: 20px;
+
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.logo
+{
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.logo img{
+  height: 40px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.tag-log{
+  width: 100%;
+  display: flex;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.tag-log h1{
+  font-size: 24px;
+}
+
+.dis-log
+{
+  width: 100%;
+  display: flex;
+  margin-left: 210px;
+  margin-top: 20px;
+}
+
+.dis-log p{
+  font-size: 10px;
+  color: rgb(106, 106, 106);
+}
+
+.input-login
+{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.input-login input{
+  width: 300px;
+  border-radius: 15px;
+  font-size: 18px;
+  padding: 10px;
+}
+.login{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.login button{
+  width: 320px;
+  border-radius: 15px;
+  background-color: rgb(244, 57, 57);
+  color: white;
+  font-size: 20px;
+}
+
+.Errorm
+{
+  color: red;
+  width: 370px;
+  display: flex;
+  justify-content: end;
+}
+
+.Errorm p{
+  font-size: 12px;
+ 
+}

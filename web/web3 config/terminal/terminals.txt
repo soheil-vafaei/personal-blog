@@ -1,0 +1,6 @@
+yarn add web3
+
+yarn add --dev react-app-rewired
+
+yarn add --dev crypto-browserify stream-browserify assert stream-http https-browserify os-
+browserify url

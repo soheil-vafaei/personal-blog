@@ -1,0 +1,20 @@
+{
+    "name": "paymon",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmcgn7xH1Fc4M9FUwXCWxd3JJGjqdhkAY7mZkbpogQcM71", 
+    "description": "A collection of 1,111 funny and smacking friends to capture exciting moments for fun and growth in order to nurture and create a different kind of dynamism and happiness in the world!", 
+    "external_url": "https://gateway.pinata.cloud/ipfs/Qmcgn7xH1Fc4M9FUwXCWxd3JJGjqdhkAY7mZkbpogQcM71", 
+    "attributes": [ 
+      {
+        "trait_type": "Puzziland", 
+        "value": "Level C"
+      }, 
+      {
+        "trait_type": "Apescastle", 
+        "value": "2nd class citizen"
+      },
+      {
+        "trait_type": "Type", 
+        "value": "Epic"
+      }
+     ]
+  }

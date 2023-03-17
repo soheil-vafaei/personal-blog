@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOHEIL VAFAEI</title>
+  </head>
+  <style>
+    .zoom-in {
+      cursor: zoom-in;
+    }
+    .zoom-out {
+      cursor: zoom-out;
+    }
+    .wait {
+      cursor: wait;
+    }
+    h1 {
+      text-shadow: 2px 2px #420344;
+    }
+    #ex-box {
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px rgb(180, 68, 68);
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      background: rgb(57, 29, 65);
+      transition: width 2s, height 4s;
+      border-radius: 100%;
+    }
+    .circle:hover {
+        width: 300px;
+        height: 300px;
+    }
+  </style>
+  <body>
+    <dev>
+      <video width="320" height="240" controls>
+        <source src="./files/2022-11-21 22-57-24.mp4" type="video/mp4" />
+      </video>
+      <br />
+      <audio controls>
+        <source src="files/Ghors 2.mp3" type="audio/mpeg" />
+      </audio>
+      <br />
+      <iframe
+        id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="300"
+        height="200"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+      >
+      </iframe>
+      <fieldset id="ex-box">
+        <legend>فرم ثبت نام:</legend>
+        <label for="fname">نام:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">نام خانوادگی:</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="email">ایمیل:</label>
+        <input type="email" id="email" name="email" /><br /><br />
+        <label for="birthday">تاریخ تولد:</label>
+        <input type="date" id="birthday" name="birthday" /><br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+      <figure>
+        <img src="./files/IMG_0204.jpeg" alt="self" style="width: 20%" />
+        <figcaption><mark>soheil vafaei</mark></figcaption>
+      </figure>
+      <br />
+      <label for="disk_c">HTML:</label>
+      <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br />
+
+      <label for="disk_d">CSS:</label>
+      <meter id="disk_d" value="0.6">60%</meter>
+      <br />
+      <ol>
+        <li>اقا محمدی</li>
+        <li>اقا امره ای</li>
+        <li>اقا شبان</li>
+      </ol>
+      <ul>
+        <li>ریاضی</li>
+        <li>علوم</li>
+        <li>فارسی</li>
+      </ul>
+      <br />
+      <label for="file">درحال دانلود:</label>
+
+      <progress id="file" max="100" value="70">70%</progress>
+
+      <p>سلام <sub>حالت</sub> خوبه؟.</p>
+
+      <p class="zoom-in">zoom-in</p>
+      <p class="zoom-out">zoom-out</p>
+      <p class="wait">wait</p>
+      <br />
+      <h1>سایه ی متن</h1>
+      <div class="circle"></div>
+    </dev>
+  </body>
+</html>

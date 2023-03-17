@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./1.css" />
+    <script>
+      function changeColor(id) {
+        if (id == "imgCho1")
+          document.getElementById("ma").style.backgroundColor = "red";
+        else if (id == "imgCho2")
+          document.getElementById("ma").style.backgroundColor = "blue";
+        else if (id == "imgCho3")
+          document.getElementById("ma").style.backgroundColor = "green";
+        else if (id == "imgCho4")
+          document.getElementById("ma").style.backgroundColor = "black";
+      }
+
+      let a = 1;
+      function Next_() {
+        if (a == 4) {
+          a = 1;
+        }
+        document.getElementById("imgBox").src = a + "." + "jpg";
+        a++;
+      }
+      function Prev_() {
+        if (a == 0) {
+          a = 3;
+        }
+        document.getElementById("imgBox").src = a + "." + "jpg";
+        a--;
+      }
+
+      function zoomin() {
+        var myImg = document.getElementById("imgBox");
+        var currWidth = myImg.clientWidth;
+        var currHeigh= myImg.clientWidth;
+        if (currWidth == 600 && currHeigh == 600) return false;
+        else {
+          myImg.style.width = currWidth + 100 + "px";
+          myImg.style.height = currHeigh + 100 + "px";
+        }
+      }
+      function zoomout() {
+        var myImg = document.getElementById("imgBox");
+        var currWidth = myImg.clientWidth;
+        var currHeigh= myImg.clientWidth;
+        if (currWidth == 600 && currHeigh == 600) return false;
+        else {
+          myImg.style.width = currWidth - 100 + "px";
+          myImg.style.height = currHeigh- 100 + "px";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <dev>
+      <button onclick="Next_()"><<</button>
+      <dev >
+        <img id="imgBox" src="1.jpg" />
+      </dev>
+      <button style="display: flex;" onclick="Next_()">>></button>
+    </dev>
+    <dev style="display: flex;">
+        <button onclick="zoomin()">+</button>
+        <button onclick="zoomout()">-</button>
+    </dev>
+
+  </body>
+</html>

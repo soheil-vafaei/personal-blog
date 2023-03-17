@@ -1,0 +1,147 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: iranSans;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: iranSans;
+    src: url('FontsFree-Net-ir_sans.ttf');
+}
+
+.svgIcon
+{
+    height: 100px;
+    width: 150px;
+    display: flex;
+}
+
+.cont{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: radial-gradient( #1B61A4 10%, rgb(0, 0, 0), black);
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box
+{
+    border: 0.2px solid #222327;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 440px;
+    background-color: #222327;
+    
+}
+
+.vorod
+{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 40px;
+    display: flex;
+}
+
+.login-discription
+{
+    color: #6e6e6e;
+    display: flex;
+    font-size: 12px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+}
+
+.dis-number
+{
+    color: #ffffff;
+    display: flex;
+    font-size: 10px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.loginCheck
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-login
+{
+    color: rgb(255, 255, 255);
+    background-color: #3c3e44;
+    border: 1px solid #222327;
+    border-radius: 10px;
+    width: 350px;
+    height: 52px;
+    padding: 2px;
+    padding-right: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+
+
+}
+
+.butt-login
+{
+    color: rgb(255, 255, 255);
+    background-color: #1B61A4;
+    border: 1px solid #222327;
+    border-radius: 10px;
+    width: 350px;
+    height: 52px;
+    padding: 20;
+    font-size: 18px;
+    margin-top: 40px; 
+    transition: 0.5s all;
+    font-family: iranSans;
+}
+
+.butt-login:hover
+{
+    color: #1B61A4;
+    background-color: #e3eaf1;
+    border: 1px solid #828282;
+    font-size: 20px;
+}
+
+.passBox
+{
+    width: 100%;
+}
+.img-revel
+{
+    height: 35px;
+    width: 40px;
+    margin-top: 10px;
+    color: white;
+    position: fixed;
+    bottom: 35.5%;
+}
+
+.Error-number {
+    color: red;
+    font-size: 8px;
+    margin-top: 10px;
+}
+.Error-password{
+    color: red;
+    font-size: 8px;
+    margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+
+{
+    "image": "https://gateway.pinata.cloud/ipfs/https://static.dw.com/image/43777750_303.jpg",
+    "animation_url": "https://gateway.pinata.cloud/ipfs/",
+    "external_url": "https://gateway.pinata.cloud/ipfs/",
+    "name": "RinbowFirestrom #24",
+    "description": "This is not a simple NFT! Not a gif or a photo,A new type of NFT.This is an application that has been converted to NFT and we are the first to do so.This is not a duplicate image, every time you refresh it, something random happens(This is an application that is NFT, this is something new)",
+    "seller_fee_basis_points": 10,
+    "collection": {
+      "name": "Dynamic NFT",
+      "family": "Live NFTs"
+    },
+    "properties": {
+      "files": [
+        {
+          "uri": "ipfs/xxx",
+          "type": "HTML/CSS"
+        }
+      ]
+    },
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "LightGoldenrodYellow"
+      },
+      {
+        "trait_type": "Frame",
+        "value": "LightSalmon"
+      },
+      {
+        "trait_type": "Shadow",
+        "value": "LightPink"
+      }
+    ]
+  }

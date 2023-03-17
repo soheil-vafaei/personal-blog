@@ -1,0 +1,348 @@
+html
+{
+    width: 100%;
+    height:350%;
+}
+.bg-header
+{
+    background-color: #2c3e50;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    height: 72px;
+    position: fixed;
+    top: 0;
+}
+.tags
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header--soheil
+{
+
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+    margin: 8px;
+}
+
+.header--protfilio
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.header--about
+{
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+.header--contact
+{
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+.bg-main
+{
+    display: flex;
+    background-color: #1bae98;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.divider-custom-line
+{
+    display: flex;
+    background-color: white;
+    width: 100px;
+    height: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 15px;
+}
+.circle
+{
+    background-color: white;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 100%;
+
+}
+
+.avatar-custom
+{
+    flex-direction: row;
+    align-items: center;
+}
+.avatar
+{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 50px;
+    transition: all 0.5s;
+}
+.avatar--name
+{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s;
+}
+
+.avatar--skill
+{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.trans5
+{
+    transition: all 0.5s;
+}
+.tag:hover
+{
+    color: #1bae98;
+}
+/*            main               */
+
+.main--protfilio
+{
+    color: #1d1d1d;
+    font-size: 50px;
+    font-weight: bold;
+}
+.divider-custom-line-main
+{
+    display: flex;
+    background-color: #1d1d1d;
+    width: 100px;
+    height: 5px;
+    border: 1px solid #1d1d1d;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.circle-main
+{
+    background-color: #1d1d1d;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #1d1d1d;
+    border-radius: 100%;
+}
+
+.tag--protfilio
+{
+    margin-top: 50px;
+}
+
+.protifilio--items
+{
+
+    border: 0px solid #1bae98;
+    border-radius: 20px;
+    opacity: 100%;
+    transition: all 0.5s;
+}
+
+.protfilio--dev
+{
+    background-color:#1bae98;
+    border: 0px solid #1bae98;
+    border-radius: 20px;
+}
+
+.size--protfilio
+{
+    width: 355px;
+    height: 255px;
+}
+
+.protifilio--items:hover{
+    opacity: 20%;
+}
+
+.container-protfilio
+{
+    max-width: 1350px;
+    height: 625px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tag--about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1bae98;
+    width: auto;
+    height: 100%;
+    margin-top: 60px;
+}
+.main--about
+{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    transition: all 0.5s;
+}
+.about--dis
+{
+    text-align: center;
+    color: white;
+    width: 60%;
+    margin: 50px;
+}
+
+.about--but
+{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 25px;
+    min-width: 233px;
+    height: 66px;
+    transition: all 0.7s;
+}
+
+.about--but:hover
+{
+    background: white;
+    border: transparent;
+    color: black;
+}
+
+@media only screen and (max-width:800px){
+    .header--soheil
+    {
+        font-size: 20px;
+    }
+        
+    .header--protfilio
+    {
+        font-size: 15px;
+    }
+
+    .header--about
+    {
+        font-size: 15px;
+    }
+
+    .header--contact
+    {
+        font-size: 15px;
+    }
+
+        
+    .tag--about
+    {
+        height: 100%;
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width:550px)
+{
+    .header--soheil
+    {
+    
+        font-weight: bold;
+        font-size: 15px;
+        margin: 8px;
+    }
+        
+    .header--protfilio
+    {
+        font-size: 10px;
+    }
+
+    .header--about
+    {
+        font-size: 10px;
+    }
+
+    .header--contact
+    {
+        font-size: 10px;
+    }
+    .avatar
+    {
+        height: 200px; 
+        width: 200px;
+    } 
+    .avatar--name
+    {
+        font-size: 45px;
+    }  
+    
+}
+
+@media only screen and (max-width:365px)
+{
+    .size--protfilio
+    {
+        width: 285px;
+        height: 205px;
+    }
+
+    .header--soheil
+    {
+        font-size: 10px;
+    }
+        
+    .header--protfilio
+    {
+        font-size: 7px;
+    }
+
+    .header--about
+    {
+        font-size: 7px;
+    }
+
+    .header--contact
+    {
+        font-size: 7px;
+    }
+
+    .main--about
+    {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+    .about--dis
+    {
+        text-align: center;
+        color: white;
+        width: 60%;
+        margin: 10px;
+    }
+}

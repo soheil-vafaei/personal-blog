@@ -1,0 +1,26 @@
+.faucet-wrapper
+{
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account--container
+{
+    border: 0.5px solid rgb(230, 230, 230);
+    border-radius: 8px;
+    display: flex;
+    padding: 10px;
+}
+
+.balance-view
+{
+    width: 100%;
+    display: flex;
+}
+
+.dev
+{
+    margin-top : 60px;
+}

@@ -1,0 +1,89 @@
+
+.container
+{
+    width: 450px;
+    height: 480px;
+    display: flex;
+    margin: 20px;
+    font-family: Sans;
+}
+
+
+.container-card
+{
+    width: 400px;
+    height:480px;
+    margin: 20px;
+    border: 5px solid rgb(54, 54, 54);
+    border-radius: 30px;
+}
+
+.imgContainer
+{
+    height:250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.image
+{
+    height: 230px;
+    width: 230px;
+}
+
+.container-discription
+{
+    width: 100%;
+    font-size: 17px;
+    display: flex;
+    justify-content: end;
+}
+
+.discription
+{
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    text-align: end;
+    
+}
+
+.discount
+{
+    color: white;
+}
+
+.container-price
+{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.container-price p
+{
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+
+}
+
+.container-real
+{
+    font-size: 14px;
+    color: rgb(106, 106, 106);
+    display: flex;
+    margin-left: 65px;
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url('./FontsFree-Net-ir_sans.ttf');
+}

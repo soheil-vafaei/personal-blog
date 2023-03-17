@@ -1,0 +1,17 @@
+.faucet-wrapper
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faucet-wrapper p{
+    color: red;
+}
+
+.balance-view
+{
+    width: 100%;
+    display: flex;
+}

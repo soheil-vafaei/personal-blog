@@ -1,0 +1,39 @@
+html
+{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.main
+{
+
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:300px;
+}
+
+.main button
+{
+    margin:10px;
+    width:80px;
+    height:58px;
+    border-radius:20px;
+    border:1px solid black;
+    color:gray;
+    background-color:black;
+    transition:all 0.5s;
+
+}
+
+.main button:hover
+{
+    border:1px solid black;
+    color:black;
+    background-color:gray;
+
+}
